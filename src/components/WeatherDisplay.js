@@ -14,7 +14,7 @@ import React from 'react'
         )}
     </p>
     <p>
-        conditions: {conditions}
+        Conditions: {conditions}
     </p>
         </>
   )
