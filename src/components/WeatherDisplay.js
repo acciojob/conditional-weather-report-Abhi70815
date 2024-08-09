@@ -5,13 +5,18 @@ import React from 'react'
 
     console.log(conditions)
   return (
-    <div>Temperature
+    <>
+    <p>Temperature
         {temperature>20 ?(
             <span style={{color:"red"}}>{" " + temperature}</span>
         ): (
             <span style={{color:"blue"}}>{" "+ temperature}</span>
         )}
-    </div>
+    </p>
+    <p>
+        conditions: {conditions}
+    </p>
+        </>
   )
 }
 
