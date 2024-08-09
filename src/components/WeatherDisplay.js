@@ -6,7 +6,7 @@ import React from 'react'
     console.log(conditions)
   return (
     <>
-    <p>Temperature
+    <p>Temperature:
         {temperature>20 ?(
             <span style={{color:"red"}}>{" " + temperature}</span>
         ): (
